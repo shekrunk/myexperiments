@@ -37,13 +37,10 @@ function process() {
     });
     
     arr.forEach(function (v) { 
-        console.log();
-        console.log(p2+v);
+        var dest = fs.createReadStream((p1+v),{ flags: 'w'});
+        var src = fs.createReadStream((p2+v),{ flags: 'r'});
 
-        var dest = fs.createReadStream((p1+v),{ flags: 'w',  encoding: "binary",});
-        var src = fs.createReadStream((p2+v),{ flags: 'r',  encoding: "binary",});
-
-        src.pipe(dest, {end: false});
+        src.pipe(dest);
     });
     
 }
