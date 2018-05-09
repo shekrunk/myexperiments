@@ -1,0 +1,1 @@
+financeApp=angular.module('FinanceApp', ['chart.js']);
