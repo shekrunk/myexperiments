@@ -1,0 +1,1 @@
+customerRegApp=angular.module('CustomerRegApp', ['ServiceApp']);

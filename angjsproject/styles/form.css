@@ -1,0 +1,53 @@
+.section{
+    width: 80%;
+    margin-left: 7%;
+    color: blue;
+}
+
+#map {
+    width: 30%;
+    height: 300px;
+    border: 2px solid red;
+    float: left;
+    margin-top: 2%;
+}
+
+.form {
+    width: 40%;
+    margin-left: 35%;
+}
+
+fieldset {
+    border: 2px solid olivedrab;
+    border-radius: 5px;
+    background-color: bisque;
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+legend {
+    text-align: center;
+}
+
+input {
+    width: 85%;
+    margin : 2% 5%;
+    border-radius: 25px;
+    border: 1px solid cornflowerblue;
+    padding: 2px;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+#picPreview img {
+   border: 2px solid yellow;
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+}
